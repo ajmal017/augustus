@@ -1,2 +1,4 @@
 # augustus
-A backtesting and quantitative trading platform
+A backtesting and quantitative trading platform in Python
+
+Augustus is a student project which aims to be a backtesting library and a quantitative trading system for traders based on event-driven engine.
