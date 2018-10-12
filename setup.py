@@ -1,7 +1,7 @@
 # encoding: UTF-8
 
 """
-Augustus - A event-driven algorithm trading library in Python.
+Augustus - An event-driven algorithm trading library in Python.
 
 This Project is an open source quantitative trading framework written in Python.
 """
