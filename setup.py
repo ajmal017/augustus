@@ -26,7 +26,7 @@ setup(
     name="Augustus",
     version="0.0.1",
     author="Jialue Chen",
-    authoremail="jialuechen@outlook.com",
+    author_email="jialuechen@outlook.com",
     license="MIT",
     url="https://github.com/jialuechen/augustus",
     description="Algorithm trading framework in Python",
