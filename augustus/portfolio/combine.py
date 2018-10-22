@@ -1,5 +1,5 @@
 import math
 
-def add_kind():
-def delete_kind():
+def add_category():
+def delete_category():
 def adjust_share():
