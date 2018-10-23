@@ -7,7 +7,9 @@ The environment recommended (which the author is now using ) for developing Augu
 - Anaconda3 5.3.0+
 - MongoDB 4.0.3+
 
-
+## Why choose Augustus?
+- Of the traders,by the traders,for the traders
+- Free and for free.
 ## Contribution Guide
 The author is very Appreciated for Any useful and issues and PRs.
 ## Roadmap
