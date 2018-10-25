@@ -9,12 +9,15 @@ class ExecutionType(Enum):
     Exit='Exit'
 
 class OrderStatus(Enum):
-    Set='set'
-    Submitted='submitted'
+    Set='Set'
+    Submitted='Submitted'
     Partial='Partial'
     Completed='Completed'
     Canceled='Canceled'
+    Expired="Expired"
     Declined='Declined'
+    Margin="Margin"
     Triggered='Triggered'
+
 
 
