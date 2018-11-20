@@ -1,6 +1,6 @@
 # Augustus
 ## Introduction
-A quantitative backtest and algorithm trading library in Python3
+A quantitative backtest and algorithm trading framework in Python3
 
 Augustus is a student project. Based on event-driven engine technology,it aims to be a useful and convienent backtest library and algorithm trading system for quantitative traders who use python for their work. Augustus does not plan to solve all possible problems but focuses on core fields. 
 ## Development
@@ -8,7 +8,7 @@ The environment recommended (which the author is now using ) for developing Augu
 - Anaconda3 5.3.0+
 - MongoDB 4.0.3+
 ## Main Features
-- Event-driven backtest
+- Event-driven backtester
 - Plot Drawing
 - Multiple Assets
 ## Why choose Augustus?

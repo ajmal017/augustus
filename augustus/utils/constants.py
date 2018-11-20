@@ -19,5 +19,13 @@ class OrderStatus(Enum):
     Margin="Margin"
     Triggered='Triggered'
 
+class Event(Enum):
+    Record_result='Record_result'
+    Data_cleaned='Data_cleaned'
+    Info_updated='Info_updated'
+    Signal_appear='Signal_appear'
+    submit_order='submit_order'
+
+
 
 
