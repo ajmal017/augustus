@@ -7,6 +7,10 @@ Augustus is a student project. Based on event-driven engine technology,it aims t
 The environment recommended (which the author is now using ) for developing Augustus is:
 - Anaconda3 5.3.0+
 - MongoDB 4.0.3+
+## Dependencies
+- pymongo
+- pandas
+- numpy
 ## Main Features
 - Event-driven backtester
 - Plot Drawing
