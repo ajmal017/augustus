@@ -19,7 +19,7 @@ The environment recommended (which the author is now using ) for developing Augu
 - Of the traders,by the traders,for the traders.
 - Free and for free.
 ## Contribution 
-The author is very appreciated for any useful and issues and PRs.
+The author is very appreciated for any useful issues and pull requests.
 ## Roadmap
 Now it is in an actively early development stage. Still need some time for the formal release. Do not use it in the production environment now.
 ## License
