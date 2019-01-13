@@ -27,6 +27,6 @@ The environment recommended (which the author is using) for developing Augustus 
 ## Contribution 
 The author is very appreciated for any useful issues and pull requests.
 ## Roadmap
-Now it is in an actively early development stage. Still need some time for the formal release. Do not use it in the production environment now.
+Now it is in an actively early development stage. However, the 1.0.0 version is coming very soon.
 ## License
 [MIT license](https://opensource.org/licenses/MIT)
