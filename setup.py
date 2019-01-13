@@ -1,7 +1,7 @@
 # encoding: UTF-8
 
 """
-Augustus - An event-driven algorithm trading library in Python.
+Augustus - An event-driven quantitative backtesting and algorithm trading library in Python.
 
 This Project is an open source quantitative trading framework written in Python.
 """
@@ -24,12 +24,12 @@ class CleanCommand(Command):
 
 setup(
     name="Augustus",
-    version="0.0.1",
+    version="1.0.0",
     author="Jialue Chen",
     author_email="jialuechen@outlook.com",
     license="MIT",
     url="https://github.com/jialuechen/augustus",
-    description="Algorithm trading framework in Python",
+    description="Quantitative trading framework in Python",
     packages=find_packages(),
     cmdClass={
         "clean":CleanCommand,

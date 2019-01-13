@@ -9,7 +9,11 @@ The environment recommended (which the author is using) for developing Augustus 
 - MongoDB 4.0.3+
 ## Install Dependencies using pip
 - pymongo
+- TA-Lib
+- retry
+- plotly
 - pandas
+- funcy
 - numpy
 - arrow
 - dataclass (not necessary for python 3.7+)
