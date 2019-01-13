@@ -31,7 +31,5 @@ setup(
     url="https://github.com/jialuechen/augustus",
     description="Quantitative trading framework in Python",
     packages=find_packages(),
-    cmdClass={
-        "clean":CleanCommand,
-    },install_requires=["pandas","numpy","pymongo"]
+    install_requires=["pandas","numpy","pymongo","retry","TA-Lib","arrow","funcy","plotly"]
 )
