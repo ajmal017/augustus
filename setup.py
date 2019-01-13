@@ -23,7 +23,7 @@ class CleanCommand(Command):
         os.system("rm -vrf ./build ./dist ./*.pyc ./*.egg-info")
 
 setup(
-    name="Augustus",
+    name="augustus_quant",
     version="1.0.0",
     author="Jialue Chen",
     author_email="jialuechen@outlook.com",
