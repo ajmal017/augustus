@@ -44,7 +44,7 @@ class Tushare_to_MongoDB(MongodbConfig):
         return df_len
 
     def _combine_and_insert(self, data):
-        """整合并插入数据"""
+
         
         name_list = ['date', 'open', 'high', 'low', 'close', 'volume']
 

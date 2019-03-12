@@ -39,7 +39,7 @@ class Optimizer(augustusEnvBase):
 
     def _optimize_func(self, params: dict, cache: list, index: int):
         t1 = time.time()
-        op.CleanerBase.counter = count(1)  # 清空cleaner缓存，避免初始化多次
+        op.CleanerBase.counter = count(1)  
         go = op.Gaius()
 
         for strategy_name, strategy in go.env.strategies.items():

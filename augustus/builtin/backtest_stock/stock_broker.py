@@ -12,6 +12,6 @@ class StockBroker(BrokerBase):
 
     @classmethod
     def _required_cash_func(cls, order: MarketOrder) -> float:
-        # TODO：还要加上手续费,和保证金
+        # TODO
 
         return order.size * order.execute_price

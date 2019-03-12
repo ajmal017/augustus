@@ -20,12 +20,7 @@ class ForwardAnalysis(augustusEnvBase):
 
     def run(self, fromdate: str, length_month: int=3, rolling_month: int=3,
             times: int=2, show_summary=True, warning: bool=True):
-        """
-        fromdate: 起始日期
-        length_month: 每次回测长度
-        rolling_month: 每次向前长度
-        times: 滚动回测次数
-        """
+        
         self.show_summary = show_summary
 
         if not warning:
@@ -72,4 +67,4 @@ class ForwardAnalysis(augustusEnvBase):
         diff = end - start
         left = diff*(self.total_iter_times-finished_times)/60/self.workers
 
-        print(f'当前是第 {finished_times} 次, 剩余 {left:.2f} mins')
+        print(f'Now it is the {finished_times} time, with {left:.2f} mins left')

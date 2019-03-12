@@ -6,7 +6,6 @@ from augustus.systemnts.order_checker import SubmitOrderChecker
 
 
 class OandaBroker(ForexBroker):
-    """自动生成挂单，所以要把系统的挂单序列清空"""
 
     def __init__(self):
         super().__init__()
@@ -17,12 +16,11 @@ class OandaBroker(ForexBroker):
         for mkt_order in self.env.orders_mkt_submitted_cur:
             self.send_mkt_order_with_pending(mkt_order)
 
-        # 提交挂单 可以异步提交
 
         for pending in self.env.orders_pending:
             self.send_pending_order_with_pending(pending)
 
-        self.clear_pending()  # 清除挂单
+        self.clear_pending()  
 
     def get_order_info(self, pending_list):
         order_info = {}

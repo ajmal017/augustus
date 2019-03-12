@@ -9,8 +9,8 @@ from augustus.constants import ActionType, OrderType
 from augustus.system.metabase_env import augustusEnvBase
 from augustus.utils.memo_for_cache import memo
 
-# mpl.rcParams['font.sans-serif'] = ['SimHei']  # 指定默认字体
-# mpl.rcParams['axes.unicode_minus'] = False  # 解决保存图像是负号'-'显示为方块的问题
+# mpl.rcParams['font.sans-serif'] = ['SimHei']  
+# mpl.rcParams['axes.unicode_minus'] = False  
 
 
 TRADING_DAYS_PER_YEAR = 252

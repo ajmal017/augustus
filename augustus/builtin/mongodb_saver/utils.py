@@ -10,7 +10,6 @@ class MongoDBFunc:
         self.port = port
 
     def _set_collection(self, database, collection):
-        """设置数据库"""
         client = pymongo.MongoClient(host=self.host, port=self.port)
         db = client[database]
         Collection = db[collection]
@@ -18,7 +17,6 @@ class MongoDBFunc:
         return Collection
 
     def _drop_duplicates_func(self, collection_obj):
-        """删除重复数据"""
         c = collection_obj.aggregate([{"$group":
                                        {"_id": {'date': '$date'},
                                         "count": {'$sum': 1},

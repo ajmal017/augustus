@@ -43,7 +43,7 @@ class AlphaBase(CleanerBase):
     def initialize_buffer_data(self, ticker: str, buffer_day: int):
         super().initialize_buffer_data(ticker, buffer_day)
 
-        if ticker in self.env.tickers:  # 因为ticker有可能在check length中被删除
+        if ticker in self.env.tickers:  
 
             key = f'{ticker}_{self.frequency}'
             close_series = pd.Series(self.data[key]['close'])

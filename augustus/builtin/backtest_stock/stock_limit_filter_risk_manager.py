@@ -2,10 +2,8 @@ from augustus.system.base_riskmanager import RiskManagerBase
 
 
 class StockLimitFilterRiskManager(RiskManagerBase):
-    """过滤第二天涨停牌的信号"""
-
+    
     def filter_signal(self):
-        """目前只考虑open成交"""
         feeds = self.env.feeds
 
         for signal in self.env.signals_normal_cur[:]:

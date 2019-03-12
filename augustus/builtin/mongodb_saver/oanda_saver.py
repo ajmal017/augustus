@@ -36,10 +36,9 @@ class Oanda_to_mongodb(MongodbConfig):
         data = data['candles']
         candle_list = fy.walk(self._normalize, data)
 
-        lenth = len(candle_list)  # 总长度
+        lenth = len(candle_list)  
         coll = self._set_collection()
 
-        # 插入数据
         i = 0
 
         for bar in candle_list:
