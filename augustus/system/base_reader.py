@@ -5,8 +5,7 @@ from augustus.system.metabase_env import augustusEnvBase
 
 
 class ReaderBase(augustusEnvBase, abc.ABC):
-    """负责读取数据"""
-
+    
     def __init__(self, ticker: str, key: str = None) -> None:
         self.ticker = ticker
         self.key = key
@@ -18,7 +17,6 @@ class ReaderBase(augustusEnvBase, abc.ABC):
 
     @abc.abstractmethod
     def load(self, fromdate: str, todate: str, frequency: str) -> Generator:
-        """需要返回已过滤好的从fromdate开始的数据,cleander需要用"""
         raise NotImplementedError
 
     def load_by_cleaner(self, fromdate: str, todate: str,
