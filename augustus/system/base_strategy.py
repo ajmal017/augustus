@@ -25,13 +25,11 @@ class StrategyBase(augustusEnvBase, abc.ABC):
 
     @property
     def recorder(self) -> RecorderBase:
-        """便于在strategy中调用账户信息数据"""
-
+        
         return self.env.recorder
 
     @abc.abstractmethod
     def handle_bar(self):
-        """在这里写策略的主要逻辑"""
         raise NotImplementedError
 
     def run(self):
@@ -41,5 +39,4 @@ class StrategyBase(augustusEnvBase, abc.ABC):
         return self.env.feeds[ticker].cur_price
 
     def set_params(self, params: dict):
-        """在这里设置参数，以便参数优化"""
         self.params.update(params)
