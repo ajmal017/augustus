@@ -21,6 +21,8 @@ The environment recommended (which the author is using) for developing Augustus 
 - numpy
 - arrow
 - dataclass (not necessary for python 3.7+)
+## Data Source
+- Tushare package in Python
 ## Main Features
 - Event-driven backtesting
 - Recording and drawing transaction records for analysis
