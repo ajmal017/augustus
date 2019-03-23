@@ -33,6 +33,6 @@ The environment recommended (which the author is using) for developing Augustus 
 ## Contribution 
 The author is very appreciated for any useful issues and pull requests.
 ## Roadmap
-Now the 1.0.0 version is generally available. 
+Now the 1.0.0 version is generally available. Plan to support more kinds of assets.
 ## License
 [MIT license](https://opensource.org/licenses/MIT)
