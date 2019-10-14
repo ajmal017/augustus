@@ -1,6 +1,6 @@
 # Augustus
 ## Introduction
-A quantitative backtest and algorithm trading framework in Python3
+A quantitative backtest and algorithmic trading framework in Python3
 
 Based on the event-driven design, Augustus aims to be a useful and convienent backtest library and algorithm trading system for quantitative traders who use python for their work. Augustus does not plan to solve all possible problems but focuses on core fields. 
 ## Install and Uninstall Instruction
